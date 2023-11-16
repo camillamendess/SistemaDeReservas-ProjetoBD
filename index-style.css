@@ -1,0 +1,37 @@
+:root {
+    --cor-backgroud-nav: #bca3ac;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f3eaf4;
+  }
+
+  .nav-index {
+    background-color: var(--cor-backgroud-nav);
+    box-shadow: 0px 0px 8px black;
+  }
+
+  .nav-index ul {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    list-style: none;
+  }
+
+  .nav-index li {
+    padding: 0 10px;
+  }
