@@ -111,7 +111,7 @@ body {
 
 @media (max-width: 1019px){
   .blocks-container {
-    width: 620px;
+    width: 700px;
   }
 
   .main-section h2 {
@@ -123,5 +123,13 @@ body {
 @media (max-width: 767px){
   .blocks-container {
     width: 250px;
-}
+  }
+
+  .slick-prev {
+    display: none;
+  }
+
+  .slick-next {
+    display: none;
+  }
 }

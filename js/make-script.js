@@ -13,33 +13,19 @@ window.addEventListener('DOMContentLoaded', function(){
             slidesToScroll: 1,       // Número de slides a serem percorridos ao avançar/retroceder
             responsive: [
                 {
-                  breakpoint: 1020,
+                  breakpoint: 1019,
                   settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 3,
                     slidesToScroll: 1,
                   }
                 },
                 {
-                  breakpoint: 800,
+                  breakpoint: 767,
                   settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1
                   }
                 },
-                {
-                  breakpoint: 600,
-                  settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
-                  }
-                },
-                {
-                  breakpoint: 375,
-                  settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
-                  }
-                }
                 // You can unslick at a given breakpoint now by adding:
                 // settings: "unslick"
                 // instead of a settings object
